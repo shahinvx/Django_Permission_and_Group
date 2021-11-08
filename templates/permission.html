@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load template_tags %}
+{% block content %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+<!-- Page Heading -->
+<h1 class="h3 mb-4 text-gray-800">{{Text}}</h1>
+<form action="" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="dropdown">
+                        <button class="btn btn-info dropdown-toggle" type="submit" name="link_a" value="adon" 
+                            id="{{GroupInfo.name}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            value="{% if GroupInfo.name %} {{GroupInfo.name}} {% else %} Choose The Group {% endif %}">
+                            {% if GroupInfo.name %} {{GroupInfo.name}} {% else %} Choose The Group {% endif %}
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            
+                            {% for val_g in Group %}
+                            <a type="text" class="dropdown-item" onclick="myFunction()"
+                                href="{% url 'permission' id=val_g.id %}">{{ val_g.name }}</a>
+                            {% endfor %}
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <!--<h4 class="h5 mb-4 text-gray-800 align-middle">Change the Group Permission -></h4>-->
+                    <span class="h5 align-middle text-gray-800">Change the Group Permission -></span>
+                </div>
+                <div class="col-sm-3 text-right">
+                    <input class="text-right" type="checkbox" id="chk_tgl" checked data-toggle="toggle"
+                        data-on="No Update" data-off="Update ON" data-onstyle="success" data-offstyle="danger"
+                        onchange="toggleOn()">
+                </div>
+            </div>
+            
+        </div>
+        <div class="form-check">
+            <!--<input type="checkbox" id="chk_tgl" onclick="toggleOn()">-->
+            <ul class="list-group list-group-flush">
+                <table class="table mt-2">
+                    <tr>
+                        {% for val in Data %}
+
+                        <td>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="{{ val.id }}"
+                                    id="{{ val.name }}" name="permissions" {% if val.id in GroupInfo.permissions %}
+                                    checked {% endif %}>
+                                <label class="custom-control-label" for="{{ val.name }}">{{ val.name }}</label>
+                            </div>
+                        </td>
+                        {% if forloop.counter|modulo:4 == 0 %}
+                    </tr>
+                    {% endif %}
+                    <!--</li>-->
+                    {% endfor %}
+                </table>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="float-right">
+        <button type="submit" id="btn_tgl" class="btn btn-primary" disabled name="link_a" value="{{GroupInfo.id}}">Update Current Permissions</button>
+    </div>
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+        <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+    </div>
+</form>
+{% endblock %}
