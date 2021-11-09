@@ -9,8 +9,8 @@
 
 # All API in Swagger Documentation
 
-- `http://127.0.0.1:8000/swagger/` or `django-perm.herokuapp.com/swagger`
-- `http://127.0.0.1:8000/redoc/` or `django-perm.herokuapp.com/redoc`
+- `http://127.0.0.1:8000/swagger/` or `django-perm.herokuapp.com/swagger` [Click Here](https://django-perm.herokuapp.com/swagger "Swagger API DOC")
+- `http://127.0.0.1:8000/redoc/` or `django-perm.herokuapp.com/redoc` [Click Here](https://django-perm.herokuapp.com/redoc "Redoc API DOC")
 
 # Swegger Documentation preview
 
