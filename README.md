@@ -13,6 +13,19 @@
 - `http://127.0.0.1:8000/swagger/` or `django-perm.herokuapp.com/swagger` [Click Here](https://django-perm.herokuapp.com/swagger "Swagger API DOC")
 - `http://127.0.0.1:8000/redoc/` or `django-perm.herokuapp.com/redoc` [Click Here](https://django-perm.herokuapp.com/redoc "Redoc API DOC")
 
+# About this APP
+
+In short this APP is about to Understand Django User Permission and Group Permission.
+
+- User
+  - User Create, Update, Delete, Login, Register 
+  - Assign Permission, Assaing to Group, Remove from Group | [Pemission and Group Control]
+- Group
+  - Group Create, Update, Delete
+  - Assign and Remove Group Permission, Update Group Properties and Pemission, Delete Group | [Group Permission Control]
+- Authentication
+  - Session and Token authentication
+
 # Swegger Documentation preview
 
 ![Swegger Documentation](/Screen_Doc/all_api.png)
