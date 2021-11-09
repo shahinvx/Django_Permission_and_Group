@@ -24,4 +24,7 @@
 # All View inside APP
 
 <img src="/Screen_Doc/login.png" width="503" height="235"> <img src="/Screen_Doc/register.png" width="503" height="235">
-
+<img src="/Screen_Doc/home.png" width="503" height="235"> <img src="/Screen_Doc/group.png" width="503" height="235">
+<img src="/Screen_Doc/perm_off.png" width="503" height="235"> <img src="/Screen_Doc/perm_on.png" width="503" height="235">
+<img src="/Screen_Doc/user_control.png" width="1006" height="470"> 
+<img src="/Screen_Doc/update_info.png" width="503" height="235"> <img src="/Screen_Doc/del_confirm.png" width="503" height="235">
