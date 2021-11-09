@@ -15,16 +15,23 @@
 
 # About this APP
 
-In short this APP is about to Understand Django User Permission and Group Permission.
+In short this APP is about to Understand Django User Permission and Group Permission , Session and Token Authentication.
 
 - User
   - User Create, Update, Delete, Login, Register 
   - Assign Permission, Assaing to Group, Remove from Group | [Pemission and Group Control]
+  
 - Group
   - Group Create, Update, Delete
   - Assign and Remove Group Permission, Update Group Properties and Pemission, Delete Group | [Group Permission Control]
+  
 - Authentication
-  - Session and Token authentication
+  - Session and Token Authentication
+  
+- Additional INFO
+  - DRF (Django Rest Framework)
+  - Swagger and Redoc for Documentation
+  - Django Templates with ajax and javascript
 
 # Swegger Documentation preview
 
