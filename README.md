@@ -23,5 +23,5 @@
 
 # All View inside APP
 
-<img src="/Screen_Doc/login.png" width="502" height="235"> <img src="/Screen_Doc/register.png" width="502" height="235">
+<img src="/Screen_Doc/login.png" width="503" height="235"> <img src="/Screen_Doc/register.png" width="503" height="235">
 
