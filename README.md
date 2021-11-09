@@ -6,7 +6,7 @@
 - `pip install -r requirements.txt`
 - `python manage.py runserver`
 - `open http://127.0.0.1:8000/ in your browser` or [Click Here](https://django-perm.herokuapp.com/ "Heroku APP Demo")
-- `Admin user : shahinvx | pass : shahin `
+- `Admin/Login user : shahinvx | pass : shahin `
 
 # All API in Swagger Documentation
 
@@ -20,4 +20,9 @@
 # Redoc Documentation preview
 
 ![Redoc Documentation](/Screen_Doc/redoc_2.PNG)
+
+# All View inside APP
+
+<img src="/Screen_Doc/login.png" width="960" height="456">
+<img src="/Screen_Doc/register.png" width="960" height="456">
 
