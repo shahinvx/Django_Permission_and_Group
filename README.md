@@ -1,7 +1,6 @@
-[Take a live demo](https://django-perm.herokuapp.com/ "Heroku APP Demo")
 # Run Django app (instructions)
 
-- `install PostgreSQL in your local machine`[Click Here](https://django-perm.herokuapp.com/ "Heroku APP Demo")
+- `Take a live demo`  [Click Here](https://django-perm.herokuapp.com/ "Heroku APP Demo") `or go django-perm.herokuapp.com`
 - `git clone github.com/shahinvx/Django_Permission_and_Group.git`
 - `cd Django_Permission_and_Group`
 - `pip install -r requirements.txt`
@@ -15,9 +14,9 @@
 
 # Swegger Documentation preview
 
-![Swegger Documentation](/api_images/swegger_ap.PNG)
+![Swegger Documentation](/Screen_Doc/swagger.PNG)
 
 # Redoc Documentation preview
 
-![Redoc Documentation](/api_images/redoc.PNG)
+![Redoc Documentation](/Screen_Doc/redoc_2.PNG)
 
