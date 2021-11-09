@@ -7,6 +7,7 @@
 - `python manage.py runserver`
 - `open http://127.0.0.1:8000/ in your browser` or [Click Here](https://django-perm.herokuapp.com/ "Heroku APP Demo")
 - `Admin/Login user : shahinvx | pass : shahin `
+- `User Delete Secret Key : shahin | don't think it will always same as password`
 
 # All API in Swagger Documentation
 
@@ -18,8 +19,9 @@
 In short this APP is about to Understand Django User Permission and Group Permission , Session and Token Authentication.
 
 - User
-  - User Create, Update, Delete, Login, Register 
+  - User Create, Update, Login, Register 
   - Assign Permission, Assaing to Group, Remove from Group | [Pemission and Group Control]
+  - Delete User with Confirmation of Secret Key [Secret Key : shahin].
   
 - Group
   - Group Create, Update, Delete
