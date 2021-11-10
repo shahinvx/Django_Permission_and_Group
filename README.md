@@ -45,7 +45,7 @@ In short this APP is about to Understand Django User Permission and Group Permis
 
 ## All View inside APP
 
-<img src="/Screen_Doc/login.png" width="430" height="235"> <img src="/Screen_Doc/register.png" width="430" height="235">
+<img src="/Screen_Doc/login.png" width="410" height="235"> <img src="/Screen_Doc/register.png" width="410" height="235">
 <img src="/Screen_Doc/home.PNG" width="400" height="230"> <img src="/Screen_Doc/group.png" width="400" height="230">
 <img src="/Screen_Doc/perm_off.png" width="400" height="230"> <img src="/Screen_Doc/perm_on.png" width="400" height="230">
 <img src="/Screen_Doc/user_control.png" width="995" height="460"> 
