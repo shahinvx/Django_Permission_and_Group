@@ -1,6 +1,7 @@
 ## Run This Django app (instructions)
 
 - `Take a live demo`  [Click Here](https://django-perm.herokuapp.com/ "Heroku APP Demo") `or go django-perm.herokuapp.com`
+- `YouTube link` [Click for YouTube](https://www.youtube.com/watch?v=ERmFW2bkFXY "For Video demo") 
 - `git clone github.com/shahinvx/Django_Permission_and_Group.git`
 - `cd Django_Permission_and_Group`
 - `pip install -r requirements.txt`
